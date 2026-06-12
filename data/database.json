@@ -1,0 +1,138 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Wayne Kiptoo",
+      "age": 20,
+      "email": "",
+      "phone": "",
+      "created_at": "2026-06-12T06:43:03.841874",
+      "classroom": "Form 4",
+      "parent_id": null,
+      "grades": [
+        {
+          "id": 1,
+          "student_id": 1,
+          "subject": "Mathematics",
+          "score": 87.0,
+          "letter": "A",
+          "teacher_id": null,
+          "date": "2026-06-12"
+        },
+        {
+          "id": 2,
+          "student_id": 1,
+          "subject": "English",
+          "score": 92.0,
+          "letter": "A+",
+          "teacher_id": null,
+          "date": "2026-06-12"
+        }
+      ],
+      "attendance": [
+        {
+          "id": 1,
+          "student_id": 1,
+          "status": "Present",
+          "date": "2026-06-12",
+          "notes": ""
+        },
+        {
+          "id": 2,
+          "student_id": 1,
+          "status": "Absent",
+          "date": "2026-06-12",
+          "notes": "Sick"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Wayne Kiptoo",
+      "age": 20,
+      "email": "",
+      "phone": "",
+      "created_at": "2026-06-12T10:35:41.771022",
+      "classroom": "Form 4",
+      "parent_id": null,
+      "grades": [],
+      "attendance": []
+    },
+    {
+      "id": 3,
+      "name": "Wayne ptoo",
+      "age": 20,
+      "email": "",
+      "phone": "",
+      "created_at": "2026-06-12T12:13:57.651527",
+      "classroom": "Form 4",
+      "parent_id": null,
+      "grades": [],
+      "attendance": []
+    },
+    {
+      "id": 4,
+      "name": "Demo Student",
+      "age": 18,
+      "email": "",
+      "phone": "",
+      "created_at": "2026-06-12T12:22:48.443301",
+      "classroom": "Form 4",
+      "parent_id": null,
+      "grades": [],
+      "attendance": []
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Mr. Ochieng",
+      "age": 35,
+      "email": "",
+      "phone": "",
+      "created_at": "2026-06-12T06:43:09.433102",
+      "subject": "Mathematics",
+      "classroom_ids": []
+    },
+    {
+      "id": 2,
+      "name": "Mr Otieno",
+      "age": 35,
+      "email": "",
+      "phone": "",
+      "created_at": "2026-06-12T10:36:01.896750",
+      "subject": "Mathematics",
+      "classroom_ids": []
+    }
+  ],
+  "parents": [
+    {
+      "id": 1,
+      "name": "Grace Kiptoo",
+      "age": 45,
+      "email": "",
+      "phone": "+254700123456",
+      "created_at": "2026-06-12T06:43:09.524581",
+      "relationship": "Mother",
+      "student_ids": []
+    }
+  ],
+  "classrooms": [
+    {
+      "id": 1,
+      "name": "Form 4",
+      "capacity": 35,
+      "teacher_id": null,
+      "student_ids": [],
+      "created_at": "2026-06-12T06:43:09.615191"
+    }
+  ],
+  "meta": {
+    "student_id_counter": 1,
+    "teacher_id_counter": 1,
+    "parent_id_counter": 1,
+    "classroom_id_counter": 1,
+    "grade_id_counter": 3,
+    "attendance_id_counter": 3
+  }
+}
